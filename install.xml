@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<template name="locality_doctors">
+<module type="template" name="locality_doctors">
 	<title>Locality Doctors</title>
 	<summary>Local doctors directory template</summary>
 	<author>Intelliants LLC</author>
 	<contributor>Intelliants LLC</contributor>
-	<version>4.0.0</version>
-	<date>2016-08-08</date>
-	<compatibility>4.0</compatibility>
+	<version>4.1.0</version>
+	<date>2017-08-04</date>
+	<compatibility>4.1</compatibility>
 
 	<layout>
 		<position menu="1" movable="0">inventory</position>
