@@ -1,5 +1,8 @@
 header {
   background: @headerBg;
+  @media (max-width: 600px) {
+    padding-bottom: 14px;
+  }
 
   > .container {
     position: relative;
@@ -79,6 +82,7 @@ header {
 .nav-inventory {
   float: right;
   margin: (@headerHeight - @line-height-computed)/2 0;
+  list-style: none;
 
   > li {
 
@@ -115,6 +119,9 @@ header {
     .username {
       display: none;
     }
+    .nav-inventory {
+      padding: 0;
+    }
   }
 
   .brand:before {
@@ -129,19 +136,21 @@ header {
     }
     .btn-add,
     .btn-group {
-      margin: 15px 0 15px 15px;
+      margin: -7px 0 0 0;
     }
   }
 
   .brand {
     position: static;
     margin: 15px 15px 15px 0;
-    float: left;
+    display: block;
+    float: none;
   }
 
   .nav-inventory {
-    float: none;
-    clear: both;
+    float: left;
+    margin: 0;
+    padding: 0;
 
     > li > a {
       margin-left: 0;
