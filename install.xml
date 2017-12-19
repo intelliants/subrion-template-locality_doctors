@@ -220,4 +220,4 @@
 		<phrase key="page_title_yellowpages_index" category="page">Doctors</phrase>
 		<phrase key="yellowpages" category="common">Doctors</phrase>
 	</phrases>
-</template>
+</module>
